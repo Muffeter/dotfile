@@ -12,7 +12,8 @@ alias _clash="syst clash"
 alias unclash="sysp clash"
 alias gc="git add . && git commit"
 alias gcm="git add . && git commit -m"
-alias gp="git pull && git push"
+alias gp="git pull"
+alias gps="git pull && git push"
 
 # -- helper
 exist() {
