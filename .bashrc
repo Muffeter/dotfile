@@ -36,10 +36,11 @@ _install_nvim() {
 	else
 		export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 	fi
-	if [ !-a /opt/nvim-linux-x86_64/bin/nvim ]; then
+	if [ ! -a /opt/nvim-linux-x86_64/bin/nvim ]; then
 	curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz
 	sudo rm -rf /opt/nvim-linux-x86_64
 	sudo tar -C /opt -xzf nvim-linux-x86_64.tar.gz
+	gitmy nvim ~/.config/nvim
 	fi
 }
 
