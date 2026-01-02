@@ -1,0 +1,2 @@
+- [] condition apt install
+- [] pip mirror based on location
