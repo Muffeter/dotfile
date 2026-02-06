@@ -10,10 +10,9 @@ alias proxy="export HTTP_PROXY=http://127.0.0.1:$Clash_Port && export HTTPS_PROX
 alias unproxy="export HTTP_PROXY= && export HTTPS_PROXY="
 alias _clash="syst clash"
 alias unclash="sysp clash"
-alias gc="git add . && git commit"
-alias gcm="git add . && git commit -m"
-alias gp="git pull"
-alias gps="git pull && git push"
+alias gs="git status"
+alias gpl="git pull"
+alias gpu="git push"
 
 # -- helper
 exist() {
